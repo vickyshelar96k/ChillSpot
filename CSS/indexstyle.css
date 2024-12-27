@@ -1,0 +1,90 @@
+.logo{
+    height: 50px;
+    width: 60px;
+    border-radius: 50%;
+}
+.navbackgnd{
+    background-color: navy;
+}
+.adrotator{
+    height: 650px;
+    width: 100%;
+}
+.adrotator-inner{
+    height: inherit;
+    background-size: cover;
+    background: center;
+}
+.main-cnt{
+    width: 100%;
+    background-color: black;
+    overflow-x: scroll;
+}
+.sub-cnt{
+    height: 300px;
+    width: 207%;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.game{
+    width: 22%;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 5px;
+    display: flex;
+    align-items: end;
+    box-shadow: 0px -20px 60px black inset;
+}
+.game:hover{
+    transform: scale(1.1);
+}
+.main-cnt::-webkit-scrollbar{
+    display: none;
+}
+.gta{
+    background-image: url(https://static.playhop.com/images/b9fe1_6238841_dae68/eb572b1ed/2a00000192258bee_5a2072d/5374cc5958dc2462274e_029eda/pjpg350x209);
+}
+.granny{
+    background-image: url(https://static.playhop.com/images/3e612_6300668_40816/6cbab4fd8/2a0000018fd9af1f_95005f8/32eebd1da8dc52a0840b_316533/pjpg350x209);
+}
+.chess{
+    background-image: url(https://static.playhop.com/images/bea42_3006389_0cb79/eb4670db3/2a00000187989d8b_b3921d4/25c3c94fe07027ac6190_f5dd20/pjpg350x209);
+}
+.counterterror{
+    background-image: url(https://static.playhop.com/images/df141_11385414_2b1a8/debc6d3dc/2a0000018d0d433e_f51495c/a619d35bbb7a6540a7ad_52526b/pjpg350x209);
+}
+.granny{
+    background-image: url(https://static.playhop.com/images/3e612_6300668_40816/6cbab4fd8/2a0000018fd9af1f_95005f8/32eebd1da8dc52a0840b_316533/pjpg350x209);
+}
+.spring{
+    background-image: url(https://images.crazygames.com/games/spring-tiles-matching/cover_16x9-1731479949865.png?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=329&fit=crop);
+}
+.bgmi{
+    background-image: url(https://static.playhop.com/images/92ea9_10152950_ba5ef/b8c817ad7/2a00000192f85707_a503eb0/7cdd63a5efab2b930ea2_af381d/pjpg350x209);
+}
+.submarin{
+    background-image: url(https://static.playhop.com/images/929de_11374519_fa2ec/6d01b5a73/2a00000192d2eabd_53959f1/a5a2e04160da4f21dacc_0f7f66/pjpg350x209);
+}
+.car{
+    background-image: url(https://static.playhop.com/images/ca611_11385414_76bc4/48682f74f/2a0000018d6530b2_94b6c6c/0c984e8b962260096fe0_e0d63c/pjpg350x209);
+}
+.rafel{
+    background-image: url(https://static.playhop.com/images/116ec_10152950_1f6fe/25b485e86/2a000001909185f4_093919a/5c0e208845dd4399a63a_6bd69a/pjpg350x209);
+}
+.hillclimb{
+    background-image: url(https://static.playhop.com/images/0d96c_3006389_e1ba3/2f3c6cc8f/2a0000018ef688d8_c45e2a1/e7eddd966c620308cbf0_8473f6/pjpg350x209);
+}
+
+.footer_link a{
+    color: #fff !important;
+}
+.footer-color{
+    background: rgb(54,87,182);
+    background: radial-gradient(circle, rgba(54,87,182,1) 0%, rgba(108,146,191,1) 100%);
+}
+/* 
+.footer-length{
+    height: 100px;
+} */
