@@ -4,7 +4,7 @@
     border-radius: 50%;
 }
 .navbackgnd{
-    background-color: navy;
+    background-color: black;
 }
 .adrotator{
     height: 650px;
@@ -81,8 +81,7 @@
     color: #fff !important;
 }
 .footer-color{
-    background: rgb(54,87,182);
-    background: radial-gradient(circle, rgba(54,87,182,1) 0%, rgba(108,146,191,1) 100%);
+    background: rgb(36, 36, 37);
 }
 /* 
 .footer-length{
