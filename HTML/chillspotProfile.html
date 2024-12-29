@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillSPot : Profile</title>
+    <link rel="stylesheet" href="../CSS/chillspotProfile.css">
+    <link rel="icon" href="../Assets/logo1.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+</head>
+<body class="bg-dark text-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black nav-height">
+        <div class="container">
+            <a id="chillspot" class="navbar-brand text-danger" href="./index.html"><i class="fas fa-play-circle"></i> ChillSpot</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="./games.html"><i class="fas fa-gamepad"></i> Games</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./movie.html"><i class="fas fa-film"></i> Movies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./news.html"><i class="fas fa-newspaper"></i> News</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./quiz.html"><i class="fas fa-tv"></i> Quiz</a>
+                    </li>
+                </ul>
+                <div class="d-flex align-items-center">
+                    <a href="#" class="text-light me-3" style="text-decoration: none;"><i class="fas fa-shopping-cart"></i> Cart</a>
+                    <a href="#" class="text-light me-3"><i class="fas fa-bell"></i></a>
+                    <img src="https://i.pinimg.com/736x/f1/ff/e5/f1ffe572c18452d10de6e26ee61151c6.jpg" class="rounded-circle img-profile" alt="Profile">
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Profile Header -->
+    <div class="bg-gradient py-5" style="background: linear-gradient(to right, #1a1a1a, #3a3a3a);">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-md-3 text-center">
+                    <img src="https://i.pinimg.com/736x/f1/ff/e5/f1ffe572c18452d10de6e26ee61151c6.jpg" class="rounded-circle mb-3 border border-3 border-danger" style="height: 230px; width: 230px;" alt="Profile Picture">
+                    <h4>Wonarey Lian</h4>
+                    <p class="prm-memb">Premium Member</p>
+                    <button class="btn btn-danger btn-sm"><i class="fas fa-edit"></i> Edit Profile</button>
+                </div>
+                <div class="col-md-9">
+                    <div class="row g-3">
+                        <div class="col-md-3">
+                            <div class="card bg-dark border-danger">
+                                <div class="card-body text-center ">
+                                    <h3 class="owned-item-num">157</h3>
+                                    <p class="mb-0 owned-item text-danger">Games Owned</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-dark border-danger">
+                                <div class="card-body text-center">
+                                    <h3 class="owned-item-num">243</h3>
+                                    <p id="movies" class="mb-0 owned-item">Movies Watched</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-dark border-danger">
+                                <div class="card-body text-center">
+                                    <h3 class="owned-item-num">45</h3>
+                                    <p class="mb-0 owned-item text-light">Watchlist</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="card bg-dark border-danger">
+                                <div class="card-body text-center">
+                                    <h3 class="owned-item-num">$250</h3>
+                                    <p id="wallet" class="mb-0 owned-item">Wallet Balance</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container py-4">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3">
+                <div class="card bg-dark border-secondary text-light mb-4">
+                    <div class="card-body">
+                        <h5 class="card-title">Preferences</h5>
+                        <hr class="border-secondary">
+                        <div class="mb-3">
+                            <h6>Favorite Genres</h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-danger">Action</span>
+                                <span class="badge bg-danger">RPG</span>
+                                <span class="badge bg-danger">Sci-Fi</span>
+                                <span class="badge bg-danger">Adventure</span>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <h6>Platform</h6>
+                            <div class="d-flex flex-wrap gap-2">
+                                <span class="badge bg-secondary">PC</span>
+                                <span class="badge bg-secondary">PS5</span>
+                                <span class="badge bg-secondary">Xbox</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card bg-dark border-secondary">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: gold; font-weight: bold; font-size: 30px;">Subscriptions</h5>
+                        <hr class="border-secondary">
+                        <div class="d-grid gap-2">
+                            <button class="btn btn-outline-danger">Premium Games Pass</button>
+                            <button class="btn btn-outline-danger">Movie Subscription</button>
+                            <button class="btn btn-outline-danger">News Access</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Main Content Area -->
+            <div class="col-md-9">
+                <!-- Recent Activity -->
+                <div class="card bg-dark border-secondary mb-4">
+                    <div class="card-header bg-transparent border-secondary">
+                        <ul class="nav nav-tabs card-header-tabs">
+                            <li class="nav-item">
+                                <a class="nav-link active bg-dark text-light" href="#">Recent</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Wishlist</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-light" href="#">Library</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="card-body">
+                        <!-- Recent Purchase -->
+                        <div class="d-flex mb-3 p-3 bg-black rounded text-light">
+                            <img src="https://static.playhop.com/images/92ea9_10152950_ba5ef/b8c817ad7/2a00000192f85707_a503eb0/7cdd63a5efab2b930ea2_af381d/pjpg350x209" class="rounded me-3 rcnt-img" alt="Game Cover">
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1">Cyberpunk 2077</h5>
+                                <p class=" mb-2">Purchased 2 days ago</p>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-sm btn-danger me-2">Install</button>
+                                    <button class="btn btn-sm btn-outline-light">View Details</button>
+                                </div>
+                            </div>
+                            <div class="text-end">
+                                <h5 class="text-danger">$59.99</h5>
+                            </div>
+                        </div>
+
+                        <!-- Recent Movie -->
+                        <div class="d-flex mb-3 p-3 bg-black rounded">
+                            <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxASEhUPEA8PDxAPEBUPEBAPDw8PDw8VFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMsNygtLisBCgoKDg0OFw4PFSsaFRktLS0rKy0rKysrKysrNy4tKy03Ny0tKzctKystKzc3Ky0rNy0rNysrKy0tKysrKysrK//AABEIAMIBAwMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAAAgMBBAUGB//EADcQAAIBAgQEAwYFAwUBAAAAAAABAgMRBBIhQQUxUXEyYYEGIpGhscFCUmLR8BMjchQzQ4LhFv/EABYBAQEBAAAAAAAAAAAAAAAAAAABAv/EABgRAQADAQAAAAAAAAAAAAAAAAABETEC/9oADAMBAAIRAxEAPwD4aAAAAAAAAAAAAAAAAAAAJKDM5AIAnkMZQIgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMpXLVFLuSUcqtu+f7GEgJJGHE2KVK5fHCsDn5TFjoSwjKZ0GgNVxK5wsbMokEtuoGuCU42diIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAL8JTu77RV/2KDo4SnaF3+LX02/nmBVOJhNLn8DNarsvib3DcDdptXbYFdGjWl4VkXV8zap8Km/FWn6aHf/ANJaysX0MLeSutLgeXxOBrU/DVcvKSNKWLktJx9T3vE+GLSUfU81xDA5ZOLWjV0BxZSi+RS0WYnC5dVy6FManUBiFon6MoN211br8jTaAwAAAAAAAAAAAAAAAAAAAAAAAAAAAAAlTjdpdXY38TU5QWy1/YpwENXL8qCd/XUDY4bhHUmopXPd8K4Srx8meW9nuJ0cPFympSnNtRUEm7L/ANOxD2gxP/FRpwWzqzbfql+4HuocHT2M1OFwjq2keQw/tBxT8uFa6ZKj+5sy47xFaulgZL9UMQvuB6LF4GMo6PtY8zxDhzbV1qrox/8AWY2HPh9F+dKdRJ+jbNWv7V4h6ywLjrtUv9gOXxXhbSZ5arGzPVY/2hlNe9h5R9Uzy+JqqTbSt5ASw89iOLhrmW/1Kou2pt4iN439UBogAAAAAAAAAAAAAAAAAAAAAAAAAAATowzNIDfoQtTt1V36lGX7G41deljUT+jAnwinmqa7Js99wbh0Z8+XwPC8N0vPv/PkQXEKraWeS1/M0gPslPBQhG6gpRS6XLIUqLd1G8Vo2k+ba0aPnNbG43Ayi6ynFTc4xTbSnkllk0nZ21TTtZp8+du5wD2vpzkqbi4Nvp/NxuD1eKwtFLM0r7aPXprc0MRwtSV6loprSMdEvU53HvayjSnklFylF8tHfT5HAlx/HYyTWGpTcYyhC0FpF1JZYKUtrv6MDb4zwWFm4u1lyPA4uFpNHSr8YxCk4znJtNprMmtPic7FO7cl5fPUCGXRdjYp6x9LEJK1vKKLbWil5XA0ASqLUiAAAAAAAAAAAAAAAAAAAAAAAAAN3BQssz30XY1aNPM7fF9Ebcqi5LktEBenz+Jprb+bF9KZTBa9gN7hlDPTcVzbfy2NGrh5RdmmmjY4ZiMk2tk7np6lKnXjm38utgPIVKkppZ5N5Vljd3sunY9L7C8IjUrOc21GksyW8m3oimrwxQV5SS3Ox7EYqLqyhF/hXyYHP9vMOnWzxT0gk+q1Z5zB46rSv/Sq1KTlHLJ06k6bkt4txeq8j1fHcXH/AFMoSta1tdzjV+HRcs0eQHFcX059DYr0MlNKWkpP5HTVGEdbardnKxtfPNbpO3zAVedvJIYmW3oZt73b7FNVgQkrrsVlkXqRnGzAiAAAAAAAAAAAAAAAAAAAAAAF2FpZpa8lrLsgLILLHzn8kVXLK88zvtsVtAXU5E4oogy+nICtu077SX1R0sDiXC6u7M52NjpF+Rdhq94tPmkB08XKVdqnDV2u/JHY9lYUoVIu39OpRjKnW/Urpxqep57h/E1R1tmk9b9PIhjOMTlUdWHuuUcs0uTWwHb9qMLDO5r+5PFNKnbXIklr30Obhq0oXpzWsdNTTwPE5RkpVG5ZFaKe3YtxnEIVWpWs46d0BRjq2tkaWHV5onia123a1zGD5t9IgWX5v+cymRZsRUQK7EpK6819CeQxHR99ANcEqkbOxEAAAAAAAAAAAAAAAAAAABvZckEvxT1fktkUYOlmlr4VrLsiyrPNJv4AQsYaLbEGgKyyiyExS5gWV17qNeEmtUbNRe76s1UBsQp5tUiEo20ej+BLCV3CV1r1T5M7S4pTa1pq/owOHGDfJX+Zhqx1J8Sir5YJX7HKnK7u9wISL8PykUNF9J2i/NoCSJJEIkkBIrmi1BxApqxus3Tma5twdnryejKK1PK7bbAVgAAAAAAAAAAAAAAAAF2Eo55KO3N9lzA2IrJT/VU19NiqmizFzzS05LREYoC1IxOBOBmQGnNGKfMnURCHMC+p4fU1WjYr8jFGF1Z78v2A1zJbVpNFdgMGCVjaw2H3fIDWUd/gZj4fU2ZwunLblHt1NWPICcScSECaAsSMkBmAxURmMc6y7rWP7GGyCdndAa7Wxg28ZBNKot9JdzUAAAAAAAAAAAAAAB0MN7lNy/FU0XkjSpQzNR6uxs42peVlyjovQCqJbEqRZEC6BKpyIQYlICmZCJKTMLmBKubmGo3gk918PM0qx3aNK0F2QHPyXvCXiXzXU154N7HUr4e6utJR1i/t2MUJqS5WktJLdMDm0cHrqbKjmeVeCPif5n+UtxEuUI+OWn+K3ZtUsOopRWwGliIaM5ceTO5jI+6ziQ5MCUSZmnHQjIDLZBsXIsCSZGZi4Atw8r3g/wAS07mq0WRdncxiPE/PUCsAAAAAAAAAAAABsYHxX6Jv5EG9WWYHxP8AxZHKBhFkSMSaAsiRkSiYkgKWZ3QsZktUgMPVrul8z0sY6JeR5ymveS/Uj06iBDKaWNof8kW4yXTddGdLKcziGGqJuaksmmm4FvD8PFe9fNKWrbepvOBo8MwM8yqOacdfdt9zqyiBy8fH3X2PPx5HpuIR919jzAGzh3sVVeZiErak63O/XUCswzJFgYYTDMIBIV3quyEjFX7ICAAAAAAAAAM2MAAABtYCOrfSP1M1ehnAu0ZPsVydwESxIQiTsBhMSMqJmaAriiMXd37manK3Ujt8gL8BDNVivO56mFM43s5hc0pT2joj0saIGt/TKMbSvCSXS50chBwA0uFL+3FtNX1s+ZszReoEZwA52Mj7r7Hk5Hs69PRnj60bSa839QK48iyDuuxCBmDs+4BoiXSiVtAQRhk0jEkBBirz9EZcTE1qBAEsjMqmBAFygZyloUA2MpgUISIMwBKQAAitnD+GXdGEABsRMsACcTFQACifi9DEgAPV+yq/s/8AZ/U7kloABQhYACaE19AANSryZ4vG/wC5LuABREjIAC+BCRkARiZmABmtt2KgAMoAAWUywA1LHWgADL//2Q==" class="rounded me-3 rcnt-img" alt="Movie Cover">
+                            <div class="flex-grow-1">
+                                <h5 class="mb-1 text-light">The NUN</h5>
+                                <p class=" text-light mb-2">Watched yesterday</p>
+                                <div class="d-flex align-items-center">
+                                    <button class="btn btn-sm btn-danger me-2">Watch Again</button>
+                                    <button class="btn btn-sm btn-outline-light">Rate</button>
+                                </div>
+                            </div>
+                            <div class="text-end">
+                                <h5 class="text-danger">$19.99</h5>
+                            </div>
+                        </div>
+
+                        <!-- Recommended -->
+                        <h5 class="mt-4 mb-3 text-light">Recommended for You</h5>
+                        <div class="row g-3">
+                            <div class="col-md-4">
+                                <div class="card bg-black">
+                                    <img src="https://wallpapercat.com/w/full/4/5/5/134076-1920x1080-desktop-1080p-god-of-war-ragnarok-wallpaper-image.jpg" class="card-img-top" alt="Game">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-light">God of War</h6>
+                                        <p class="text-danger mb-2">$49.99</p>
+                                        <button class="btn btn-sm btn-danger w-100">Add to Cart</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card bg-black">
+                                    <img src="https://wallpapercave.com/wp/wp3891762.jpg" class="card-img-top" alt="Movie">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-light">Avengers: Endgame</h6>
+                                        <p class="text-danger mb-2">$14.99</p>
+                                        <button class="btn btn-sm btn-danger w-100">Buy Now</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="card bg-black">
+                                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwY6GyjXleNmj8cFsp3DCC8ejYP2YkB87NFg&s" class="card-img-top" alt="Game">
+                                    <div class="card-body">
+                                        <h6 class="card-title text-light">Spider-Man 2</h6>
+                                        <p class="text-danger mb-2">$59.99</p>
+                                        <button class="btn btn-sm btn-danger w-100">Pre-order</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-light py-4 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3">
+                    <h5 id="chillspot" class="text-danger"><i class="fas fa-play-circle"></i> ChillSpot</h5>
+                    <p class="">Your one-stop entertainment destination</p>
+                </div>
+                <div class="col-md-3">
+                    <h5>Quick Links</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">About Us</a></li>
+                        <li><a href="#" class="text-decoration-none">Support</a></li>
+                        <li><a href="#" class="text-decoration-none">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Legal</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-decoration-none">Privacy Policy</a></li>
+                        <li><a href="#" class="text-decoration-none">Terms of Service</a></li>
+                        <li><a href="#" class="text-decoration-none">Refund Policy</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5>Connect</h5>
+                    <div class="d-flex gap-4">
+                        <a href="#" class="footer-icon"><i class="fab fa-facebook fa-lg"></i></a>
+                        <a href="#" class="footer-icon"><i class="fab fa-twitter fa-lg"></i></a>
+                        <a href="#" class="footer-icon"><i class="fab fa-instagram fa-lg"></i></a>
+                        <a href="#" class="footer-icon"><i class="fab fa-discord fa-lg"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr class="" style="color:antiquewhite; ">
+            <div class="text-center">
+                <h6>&copy; 2024 ChillSpot.com All rights reserved.</h6>
+                <a href="https://linkedin.com/in/vikas-shelar-1508s" target="_blank" style="text-decoration: none; color: blue;"> Developed by: Vikas Shelar </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -175,3 +175,12 @@ footer {
         grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
 }
+
+.icon-ft{
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+}
+.footer-icon{
+    margin-bottom: 10px;
+}

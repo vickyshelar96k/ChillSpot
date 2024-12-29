@@ -1,152 +1,106 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillSpot : GameZone</title>
+    <link rel="stylesheet" href="../CSS/games.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
     <link rel="icon" href="../Assets/logo1.jpg">
-    <link rel="stylesheet" href="../CSS/indexstyle.css">
-    <title>Games</title>
-  </head>
-  <body>
-
-    <!-- Navigation Section -->
-    <nav class="navbar navbar-expand-lg navbar-light navbackgnd ">
-        <div class="container-fluid ">
-          <a class="navbar-brand " href="#"><img class="logo" src="../Assets/logo1.jpg" alt=""></a>
-          <button class="navbar-toggler t" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse navbarcntr" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link text-light fw-bold" href="./Games.html">Games</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Media
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Quiz</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Timer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Profile</a>
-              </li>
-            </ul>
-            <form class="d-flex">
-              <input class="form-control me-2 fw-bold" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success text-light fw-bold" type="submit">Search</button>
-            </form>
-          </div>
-        </div>
-      </nav>
-
-    <!-- Image Rotator Section   -->
-     <section>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 3"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner adrotator">
-              <div class="carousel-item active adrotator-inner">
-                <img src="../Assets/pexels-thepaintedsquare-3405456.jpg" class="d-block w-100 adrotator-inner" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3 class="text-dark fw-bold">Visual Gaming</h3>
-                  <p class="text-dark fw-bold">Some representative placeholder content for the first slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-cottonbro-3945317.jpg" class="d-block w-100 adrotator-inner" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Second slide label</h3>
-                  <p>Some representative placeholder content for the second slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-lulizler-3165335.jpg" class="d-block w-100 adrotator-inner" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Third slide label</h3>
-                  <p>Some representative placeholder content for the third slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-nappy-935979.jpg" class="d-block w-100 adrotator-inner" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Fourth slide label</h3>
-                  <p>Some representative placeholder content for the fourth slide.</p>
-                </div>
-              </div>
-              <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-a-darmel-7862657.jpg" class="d-block w-100 adrotator-inner" alt="...">
-                <div class="carousel-caption d-none d-md-block">
-                  <h3>Fifth slide label</h3>
-                  <p>Some representative placeholder content for the fifth slide.</p>
-                </div>
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-     </section>
-
-     <!-- Games -->
-     <section>
-        <h1 class="mt-3">Games</h1>
-        <div class="main-cnt">
-            <div class="sub-cnt">
-                <div class="game gta"></div>
-                <div class="game granny"></div>
-                <div class="game counterterror"></div>
-                <div class="game spring"></div>
-                <div class="game bgmi"></div>
-                <div class="game chess"></div>
-                <div class="game submarin"></div>
-                <div class="game car"></div>
-                <div class="game rafel"></div>
-                <div class="game hillclimb"></div>
-
+</head>
+<body>
+    <nav >
+        <div class="nav-content">
+            <div class="logo">GameZone</div>
+            <div class="nav-links">
+                <a href="./index.html">Home</a>
+                <a href="./games.html">Games</a>
+                <a href="./movie.html">Movies</a>
+                <a href="./news.html">News</a>
+                <a href="./contact.html">Contact</a>
             </div>
         </div>
-     </section>
+    </nav>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Welcome to GameZone</h1>
+            <p>Discover the latest and greatest games in one place</p>
+            <button class="cta-button">Browse Games</button>
+        </div>
+    </section>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <section class="featured-games">
+        <h2 class="section-title">Featured Games</h2>
+        <div class="games-grid">
+            <div class="game-card" style="cursor: pointer;">
+                <img src="https://imgs.crazygames.com/battle-arena_16x9/20240523085305/battle-arena_16x9-cover?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=297&fit=crop" alt="Game 1" class="game-image">
+                <div class="game-info">
+                    <h3 class="game-title">Battel Arena</h3>
+                    <p class="game-description">Embark on an incredible journey through mysterious lands.</p>
+                    <p class="game-price">$59.99</p>
+                </div>
+            </div>
+            <div class="game-card" style="cursor: pointer;">
+                <img src="https://imgs.crazygames.com/skillwarz_16x9/20241119085228/skillwarz_16x9-cover?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=329&fit=crop" alt="Game 2" class="game-image">
+                <div class="game-info">
+                    <h3 class="game-title">SkillWarz</h3>
+                    <p class="game-description">Join the intergalactic battle for supremacy.</p>
+                    <p class="game-price">$49.99</p>
+                </div>
+            </div>
+            <div class="game-card" style="cursor: pointer;">
+                <img src="https://imgs.crazygames.com/rally-racer-dirt_16x9/20240514035838/rally-racer-dirt_16x9-cover?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=329&fit=crop" alt="Game 3" class="game-image">
+                <div class="game-info">
+                    <h3 class="game-title">Racing Legends</h3>
+                    <p class="game-description">Experience high-speed thrills on legendary tracks.</p>
+                    <p class="game-price">$39.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <section class="featured-games">
+        <h2 class="section-title">Horror Games</h2>
+        <div class="games-grid">
+            <div class="game-card" style="cursor: pointer;">
+                <img src="https://imgs.crazygames.com/horror-tale-kidnapper_16x9/20241121093310/horror-tale-kidnapper_16x9-cover?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=329&fit=crop">
+                <div class="game-info">
+                    <h3 class="game-title">Horror Tale</h3>
+                    <p class="game-description">Fear is the ultimate game changer.</p>
+                    <p class="game-price">$89.99</p>
+                </div>
+            </div>
+            <div class="game-card" style="cursor: pointer;">
+                <img src="https://imgs.crazygames.com/games/haunted-school---horror-game/cover-1657021606968.png?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=329&fit=crop">
+                <div class="game-info">
+                    <h3 class="game-title">Honted School</h3>
+                    <p class="game-description">The silence speaks louder than Screams.</p>
+                    <p class="game-price">$99.99</p>
+                </div>
+            </div>
+            <div class="game-card" style="cursor: pointer;">
+                <img src="https://imgs.crazygames.com/cornfield_16x9/20241218040129/cornfield_16x9-cover?auto=format%2Ccompress&q=90&cs=strip&ch=DPR&w=329&fit=crop">
+                <div class="game-info">
+                    <h3 class="game-title">CornField</h3>
+                    <p class="game-description">Survival is the scariest part of the game..</p>
+                    <p class="game-price">$9.99</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer> 
+        <div class="mb-2 footer-icon">
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white icon-ft"><i class="fab fa-instagram"></i></a>
+            <a href="#" class="text-white icon-ft"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+    
+        <h4 ><p>&copy; 2024 ChillSpot.com All rights reserved.</p></h4>
+        <br>
+        <h5><a href="https://linkedin.com/in/vikas-shelar-1508s" target="_blank" style="text-decoration: none; color: blue;"> Developed by: Vikas Shelar </a></h5>
+    </footer>
+</body>
 </html>

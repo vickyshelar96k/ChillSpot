@@ -1,0 +1,37 @@
+.nav-height{
+    height: 70px;
+    font-size: 18px;
+}
+#chillspot{
+    font-size: 28px;
+    font-weight: bold;
+}
+.img-profile{
+    height: 55px;
+    width: 55px;
+}
+.prm-memb{
+    color: gold;
+    font-weight: bold;
+}
+.owned-item-num{
+    color: gold;
+    font-weight: bold;
+}
+.owned-item{
+    font-weight: bold;
+    font-size: 20px;
+}
+#wallet{
+    color:aqua;
+}
+#movies{
+    color: lightgreen;
+}
+.rcnt-img{
+    height: 90px;
+    width: 100px;
+}
+.footer-icon{
+    font-size: 25px;
+}

@@ -1,0 +1,21 @@
+#chillspot{
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-anchor{
+    font-size: 16px;
+    font-weight: bold;
+}
+footer{
+    text-align: center;
+    height: 180px;
+    background-color: black;
+}
+.footer-icon{
+    padding-top: 15px;
+}
+.icon-ft{    
+    margin-left: 40px;
+    color: white;
+    font-size: 30px;
+}

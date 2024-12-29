@@ -1,0 +1,30 @@
+.quiz-card:hover {
+    transform: translateY(-5px);
+    transition: transform 0.3s ease;
+}
+.category-icon {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.quizimg{
+    height: inherit;
+    width: inherit;
+}
+.quiz-hub{
+    color: red;
+    font-size: 28px;
+    font-weight: bold;
+}
+.nav-height{
+    height: 70px;
+    font-size: 18px;
+}
+.anchor-nav:hover{
+    color: red;
+}
+.footer-icon{
+    font-size: 2rem;
+}
+.icon-ft{
+    margin-left: 30px;
+}

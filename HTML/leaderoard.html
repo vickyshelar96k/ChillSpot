@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+    <link rel="stylesheet" href="../CSS/leaderboard.css">
+    <link rel="icon" href="../Assets/logo1.jpg">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-height">
+        <div class="container">
+            <a class="navbar-brand" id="quiz-hub" href="./quiz.html"><i class="fas fa-brain me-2"></i>Quiz Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./index.html"><i class="fas fa-home me-1"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav active" href="#"><i class="fas fa-trophy me-1"></i> Leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./quizprofile.html"><i class="fas fa-user me-1"></i> Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container py-5">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card shadow">
+                    <div class="card-header bg-primary text-white">
+                        <h3 class="mb-0 text-center">Top Players</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Rank</th>
+                                        <th scope="col">Player</th>
+                                        <th scope="col">Score</th>
+                                        <th scope="col">Level</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr class="table-warning">
+                                        <th scope="row">1</th>
+                                        <td>
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTw0PDKrErulLlbJkbv5KtsCeICczdgJSyurA&s" class="rounded-circle me-2 img-profile" alt="avatar">
+                                            John Doe
+                                        </td>
+                                        <td>10,245</td>
+                                        <td>
+                                            <span class="badge bg-warning text-dark">Level 50</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-secondary">
+                                        <th scope="row">2</th>
+                                        <td>
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvEGKoKDGJ6tEA7KUZss_SMMIe1aKY_GoIEQ&usqp=CAU" class="rounded-circle me-2 img-profile" alt="avatar">
+                                            Jane Smith
+                                        </td>
+                                        <td>9,652</td>
+                                        <td>
+                                            <span class="badge bg-info">Level 45</span>
+                                        </td>
+                                    </tr>
+                                    <tr class="table-bronze">
+                                        <th scope="row">3</th>
+                                        <td>
+                                            <img src="https://easy-peasy.ai/cdn-cgi/image/quality=80,format=auto,width=700/https://fdczvxmwwjwpwbeeqcth.supabase.co/storage/v1/object/public/images/50dab922-5d48-4c6b-8725-7fd0755d9334/3a3f2d35-8167-4708-9ef0-bdaa980989f9.png" class="rounded-circle me-2 img-profile" alt="avatar">
+                                            Mike Johnson
+                                        </td>
+                                        <td>8,925</td>
+                                        <td>
+                                            <span class="badge bg-secondary">Level 42</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">4</th>
+                                        <td>
+                                            <img src="https://media.istockphoto.com/id/1437816897/photo/business-woman-manager-or-human-resources-portrait-for-career-success-company-we-are-hiring.jpg?s=612x612&w=0&k=20&c=tyLvtzutRh22j9GqSGI33Z4HpIwv9vL_MZw_xOE19NQ=" alt="avatar" class="rounded-circle me-2 img-profile">
+                                            Sarah Williams
+                                        </td>
+                                        <td>7,854</td>
+                                        <td>
+                                            <span class="badge bg-secondary">Level 38</span>
+                                        </td>
+                                    </tr>
+                                    <tr>
+                                        <th scope="row">5</th>
+                                        <td>
+                                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSyZ8qoYUgNO_RbTKzg8cfPUV9aWPn4DdGtHQ&usqp=CAU" class="rounded-circle me-2 img-profile" alt="avatar">
+                                            Tom Brown
+                                        </td>
+                                        <td>6,952</td>
+                                        <td>
+                                            <span class="badge bg-secondary">Level 35</span>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer-icon" style="background-color: black; text-align: center; height: 260px;"> 
+        <div class="mb-2 ">
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white icon-ft"><i class="fab fa-instagram"></i></a>
+        </div>
+        <h5 class="text-light"><p>&copy; 2024 ChillSpot.com All rights reserved.</p></h5>
+        <br>
+        <h5><a href="https://linkedin.com/in/vikas-shelar-1508s" target="_blank" style="text-decoration: none; color: blue;"> Developed by: Vikas Shelar </a></h5>
+    </footer>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

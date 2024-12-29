@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillSpot : Knowledge Quiz</title>
+    <link rel="icon" href="../Assets/logo1.jpg">
+    <link rel="stylesheet" href="../CSS/quiz.css">
+    <link rel="stylesheet" href="../CSS/knowledgeQuiz.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-height">
+        <div class="container">
+            <a class="navbar-brand quiz-hub text-danger" href="./quiz.html"><i class="fas fa-brain me-2"></i>Quiz Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./index.html"><i class="fas fa-home me-1"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./leaderoard.html"><i class="fas fa-trophy me-1"></i> Leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./quizprofile.html"><i class="fas fa-user me-1"></i> Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <div class="container col-4 py-5">
+        <!-- Quiz Header -->
+        <div class="text-center mb-5" style="border: 2px dotted;">
+            <h1 class="display-4 mb-3">Knowledge Quiz</h1>
+            <p class="lead text-muted">Test your knowledge with these questions!</p>
+        </div>
+
+        <!-- Quiz Card -->
+        <div class="card shadow-sm mb-4">
+            <div class="card-header bg-primary text-white d-flex justify-content-between align-items-center">
+                <h5 class="mb-0">Question 1/5</h5>
+                <span class="badge bg-light text-primary">Time: 30s</span>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title mb-4">What is the capital of France?</h5>
+                
+                <div class="options">
+                    <div class="mb-3">
+                        <input type="radio" class="btn-check" name="options" id="option1" autocomplete="off">
+                        <label class="btn btn-outline-primary w-100 text-start" for="option1">London</label>
+                    </div>
+                    <div class="mb-3">
+                        <input type="radio" class="btn-check" name="options" id="option2" autocomplete="off">
+                        <label class="btn btn-outline-primary w-100 text-start" for="option2">Paris</label>
+                    </div>
+                    <div class="mb-3">
+                        <input type="radio" class="btn-check" name="options" id="option3" autocomplete="off">
+                        <label class="btn btn-outline-primary w-100 text-start" for="option3">Berlin</label>
+                    </div>
+                    <div class="mb-3">
+                        <input type="radio" class="btn-check" name="options" id="option4" autocomplete="off">
+                        <label class="btn btn-outline-primary w-100 text-start" for="option4">Madrid</label>
+                    </div>
+                </div>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-between align-items-center">
+                    <button class="btn btn-outline-secondary" disabled>Previous</button>
+                    <div class="progress flex-grow-1 mx-3" style="height: 8px;">
+                        <div class="progress-bar" role="progressbar" style="width: 20%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
+                    </div>
+                    <button class="btn btn-primary">Next</button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Score Card -->
+        <div class="card shadow-sm">
+            <div class="card-body">
+                <div class="d-flex justify-content-between align-items-center">
+                    <div>
+                        <h6 class="mb-0">Current Score</h6>
+                        <p class="display-6 mb-0">0/5</p>
+                    </div>
+                    <div class="text-end">
+                        <button class="btn btn-danger">Quit Quiz</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer  style="background-color: black; text-align: center; height: 180px;"> 
+        <div class="mb-2 footer-icon">
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white icon-ft"><i class="fab fa-instagram"></i></a>
+        </div>
+        <h5 class="text-light"><p>&copy; 2024 ChillSpot.com All rights reserved.</p></h5>
+        <br>
+        <h6><a href="https://linkedin.com/in/vikas-shelar-1508s" target="_blank" style="text-decoration: none; color: blue;"> Developed by: Vikas Shelar </a></h6>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

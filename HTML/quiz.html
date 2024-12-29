@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChillSpot : Quiz Hub</title>
+    <link rel="stylesheet" href="../CSS/games.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../CSS/quiz.css">
+    <link rel="icon" href="../Assets/logo1.jpg">
+</head>
+<body class="bg-light">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark nav-height">
+        <div class="container">
+            <a class="navbar-brand quiz-hub" href="#"><i class="fas fa-brain me-2"></i>Quiz Hub</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav active" href="./index.html"><i class="fas fa-home me-1"></i> Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./leaderoard.html"><i class="fas fa-trophy me-1"></i> Leaderboard</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link anchor-nav" href="./quizprofile.html"><i class="fas fa-user me-1"></i> Profile</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-primary text-white py-5 mb-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h1 class="display-4 fw-bold mb-3">Challenge Your Knowledge</h1>
+                    <p class="lead mb-4">Explore our vast collection of quizzes across various categories. Learn, compete, and have fun!</p>
+                    <a href="./knowledgeQuiz.html"><button class="btn btn-light btn-lg px-4"><i class="fas fa-play me-2"></i>Start Playing</button></a>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <img class="quizimg" src="https://cdn.pixabay.com/photo/2017/06/22/20/33/quiz-2432440_1280.png" alt="Quiz illustration" class="img-fluid rounded shadow">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="container mb-5">
+        <!-- Featured Categories -->
+        <h2 class="text-center mb-4">Popular Categories</h2>
+        <div class="row g-4 mb-5">
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm quiz-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-laptop-code category-icon text-primary"></i>
+                        <h4>Technology</h4>
+                        <p class="text-muted">Test your knowledge about programming, computers, and tech trends</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-primary">15 Quizzes</span>
+                            <span><i class="fas fa-users me-1"></i> 2.5k Players</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm quiz-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-flask category-icon text-success"></i>
+                        <h4>Science</h4>
+                        <p class="text-muted">Explore the wonders of physics, chemistry, and biology</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-success">20 Quizzes</span>
+                            <span><i class="fas fa-users me-1"></i> 3.1k Players</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card h-100 border-0 shadow-sm quiz-card">
+                    <div class="card-body text-center">
+                        <i class="fas fa-globe category-icon text-info"></i>
+                        <h4>Geography</h4>
+                        <p class="text-muted">Journey through countries, capitals, and world cultures</p>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <span class="badge bg-info">12 Quizzes</span>
+                            <span><i class="fas fa-users me-1"></i> 1.8k Players</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Quizzes -->
+        <h2 class="text-center mb-4">Featured Quizzes</h2>
+        <div class="row g-4">
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm quiz-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-primary text-white p-3 rounded me-3">
+                                <i class="fas fa-code fa-2x"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title mb-1">JavaScript Fundamentals</h5>
+                                <p class="text-muted mb-0">Test your JS knowledge</p>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-success" style="width: 75%"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="badge bg-light text-dark me-2"><i class="fas fa-question-circle me-1"></i>20 Questions</span>
+                                <span class="badge bg-light text-dark"><i class="fas fa-clock me-1"></i>15 mins</span>
+                            </div>
+                            <button class="btn btn-primary"><i class="fas fa-play me-2"></i>Start Quiz</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card border-0 shadow-sm quiz-card">
+                    <div class="card-body">
+                        <div class="d-flex align-items-center mb-3">
+                            <div class="bg-success text-white p-3 rounded me-3">
+                                <i class="fas fa-atom fa-2x"></i>
+                            </div>
+                            <div>
+                                <h5 class="card-title mb-1">Physics Quiz</h5>
+                                <p class="text-muted mb-0">Basic concepts of physics</p>
+                            </div>
+                        </div>
+                        <div class="mb-3">
+                            <div class="progress" style="height: 8px;">
+                                <div class="progress-bar bg-success" style="width: 60%"></div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div>
+                                <span class="badge bg-light text-dark me-2"><i class="fas fa-question-circle me-1"></i>15 Questions</span>
+                                <span class="badge bg-light text-dark"><i class="fas fa-clock me-1"></i>12 mins</span>
+                            </div>
+                            <button class="btn btn-success"><i class="fas fa-play me-2"></i>Start Quiz</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer> 
+        <div class="mb-2 footer-icon">
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-twitter"></i></a>
+            <a href="#" class="text-white me-3 icon-ft"><i class="fab fa-facebook"></i></a>
+            <a href="#" class="text-white icon-ft"><i class="fab fa-instagram"></i></a>
+        </div>
+        <h5 class="text-light"><p>&copy; 2024 ChillSpot.com All rights reserved.</p></h5>
+        <br>
+        <h5><a href="https://linkedin.com/in/vikas-shelar-1508s" target="_blank" style="text-decoration: none; color: blue;"> Developed by: Vikas Shelar </a></h5>
+    </footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

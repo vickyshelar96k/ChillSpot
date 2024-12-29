@@ -1,10 +1,22 @@
+*{
+    cursor: pointer;
+}
+a{
+    text-decoration: none;
+}
 .logo{
-    height: 50px;
+    height: 60px;
     width: 60px;
     border-radius: 50%;
 }
+.logo:hover{
+    transform: scale(1.1);
+}
 .navbackgnd{
     background-color: black;
+}
+.nav-text:hover{
+    transform: scale(1.1);
 }
 .adrotator{
     height: 650px;
@@ -81,7 +93,38 @@
     color: #fff !important;
 }
 .footer-color{
-    background: rgb(36, 36, 37);
+    background: rgb(50, 50, 52);
+}
+.social-media{
+    padding: 20px;
+    font-size: 28px;
+}
+.social-media:hover{
+    transform: scale(1.1);
+    transition: background-color 0.5s;
+}
+#instalogo:hover{
+    background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+}
+#gogglelogo:hover{
+    background: linear-gradient(45deg, #4285f4 0%, #34a853 25%, #fbbc05 50%, #ea4335 75%);
+}
+.subseeall:hover{
+    transform: scale(1.1);
+    transition: background-color 0.5s;
+    background-color: red;
+}
+.lastdiv{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+}
+#lastheader{
+    background-color: black;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
 }
 /* 
 .footer-length{

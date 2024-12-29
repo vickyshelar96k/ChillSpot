@@ -12,12 +12,12 @@
     <link rel="stylesheet" href="/BOOTSTRAP/CSS/JioCInema.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-    <title>Entertainment Channel</title>
+    <title>ChillSpot</title>
   </head>
   <body style="background: black;">
 
     <!-- Navigation Section -->
-    <nav class="navbar navbar-expand-lg navbar-light navbackgnd ">
+    <nav class="navbar navbar-expand-lg navbar-light navbackgnd fixed-top">
         <div class="container ">
           <a class="navbar-brand " href="#"><img class="logo" src="../Assets/logo1.jpg" alt=""></a>
           <button class="navbar-toggler t" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,37 +26,43 @@
           <div class="collapse navbar-collapse navbarcntr" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link active text-light fw-bold" aria-current="page" href="#">Home</a>
+                <a class="nav-link active text-light fw-bold nav-text" aria-current="page" href="./index.html">Home</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-light fw-bold" href="./games2.html">Games</a>
+                <a class="nav-link text-light fw-bold nav-text" href="./games.html">Games</a>
               </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle text-light fw-bold" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              <li class="nav-item">
+                <a class="nav-link text-light fw-bold nav-text" href="./movie.html">Movies</a>
+              </li>
+              <!-- <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle text-light fw-bold nav-text" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   Media
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
+                  <li><a class="dropdown-item nav-text" href="#">Action</a></li>
+                  <li><a class="dropdown-item nav-text" href="#">Another action</a></li>
                   <li><hr class="dropdown-divider"></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
+                  <li><a class="dropdown-item nav-text" href="#">Something else here</a></li>
                 </ul>
+              </li> -->
+              <li class="nav-item">
+                <a class="nav-link  text-light fw-bold nav-text" href="./quiz.html" tabindex="-1" aria-disabled="true">Quiz</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Quiz</a>
+                <a class="nav-link  text-light fw-bold nav-text" href="./news.html" tabindex="-1" aria-disabled="true">News</a>
               </li>
+              <!-- <li class="nav-item">
+                <a class="nav-link  text-light fw-bold nav-text" href="#" tabindex="-1" aria-disabled="true">Timer</a>
+              </li> -->
               <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">News</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Timer</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled text-light fw-bold" href="#" tabindex="-1" aria-disabled="true">Profile</a>
+                <a class="nav-link  text-light fw-bold nav-text" href="./chillspotProfile.html" tabindex="-1" aria-disabled="true">Profile</a>
               </li>
             </ul>
             <form class="d-flex">
-              <input class="form-control me-2 fw-bold" type="search" placeholder="Search" aria-label="Search">
+                  <div style="position: relative; right: 10px;">
+                  <i class="fas fa-search" style="position: absolute; left: 10px; top: 50%; transform: translateY(-50%); color: #666;"></i>
+                  <input class="form-control me-2 fw-bold" type="search" placeholder="Search" aria-label="Search" style="padding-left: 30px;">
+                  </div></div>
                 <button class="btn btn-outline-primary text-light fw-bold" type="submit" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor=''">Search</button>
             </form>
           </div>
@@ -75,39 +81,39 @@
             </div>
             <div class="carousel-inner adrotator">
               <div class="carousel-item active adrotator-inner">
-                <img src="../Assets/pexels-thepaintedsquare-3405456.jpg" class="d-block w-100 adrotator-inner" alt="...">
+                <video src="https://brand-websites-prod.s3.ap-south-1.amazonaws.com/setindia-live/setusa-live/slider_videos/MP4_112_12242024125156.mp4" autoplay muted></video>
                 <div class="carousel-caption d-none d-md-block">
-                  <h3 class="text-dark fw-bold">Visual Gaming</h3>
-                  <h4><p class="text-dark fw-bold">"Play beyond reality, see beyond limits." </p></h4>
+                  <h3 class="text-light fw-bold">Aahat</h3>
+                  <h4><p class="text-light fw-bold">"Where fear becomes reality, and every shadow hides a secret." </p></h4>
                 </div>
               </div>
               <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-cottonbro-3945317.jpg" class="d-block w-100 adrotator-inner" alt="...">
+                <img src="https://cdn2.unrealengine.com/egs-alan-wake-2-carousel-desktop-1248x702-c7cb2980c2a2.jpg?resize=1&w=1280&h=720&quality=medium" class="d-block w-100 adrotator-inner" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>Movies</h3>
-                  <h4><p>"Movies don't just entertain; they inspire, thrill, and heal."</h4>
+                  <h3>Horror Gaming</h3>
+                  <h4><p>"Face your Fears, Embrace the Thrill — Dive into HORROR Gaming!"</h4>
                   </p>
                 </div>
               </div>
               <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-lulizler-3165335.jpg" class="d-block w-100 adrotator-inner" alt="...">
+                <img src="https://jiotvimages.cdn.jio.com/dare_images/shows/700/-/2024-12-28/2412281403005.jpg" class="d-block w-100 adrotator-inner" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>Third slide label</h3>
-                  <p>Some representative placeholder content for the third slide.</p>
+                  <h3>MAHABHARAT</h3>
+                  <h4><p>Where Dharma meets destiny – Experience the epic of Mahabharata."</p></h4>
                 </div>
               </div>
               <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-nappy-935979.jpg" class="d-block w-100 adrotator-inner" alt="...">
+                <img src="https://img.freepik.com/premium-photo/text-24-breaking-news-news-graphic-with-lines-world-map-studio-abstract-background-elegant-luxury-3d-illustration-style-news-template_510351-2617.jpg" class="d-block w-100 adrotator-inner" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>Fourth slide label</h3>
-                  <p>Some representative placeholder content for the fourth slide.</p>
+                  <h3>NEWS</h3>
+                  <h4><p>Stay informed, because knowledge is the key to shaping tomorrow.</p></h4>
                 </div>
               </div>
               <div class="carousel-item adrotator-inner">
-                <img src="../Assets/pexels-a-darmel-7862657.jpg" class="d-block w-100 adrotator-inner" alt="...">
+                <img src="https://png.pngtree.com/thumb_back/fh260/background/20220217/pngtree-quiz-concept-metal-letterpress-type-retro-trivia-wood-photo-image_21468304.jpg" class="d-block w-100 adrotator-inner" alt="...">
                 <div class="carousel-caption d-none d-md-block">
-                  <h3>Fifth slide label</h3>
-                  <p>Some representative placeholder content for the fifth slide.</p>
+                  <h3>QUIZ</h3>
+                  <h4><p>"Challenge your mind, uncover new truths, and let curiosity lead the way."</p></h4>
                 </div>
               </div>
             </div>
@@ -128,7 +134,7 @@
           <div class="row">
             <h1 class="col-6 heading1 mt-5">Games</h1>
             <div class="col-5 mt-5"></div>
-            <button type="button " class="col-1 btn mt-5">See All</button>
+            <button type="button " class="col-1 btn mt-5 subseeall" onmouseout="this.style.backgroundColor='red'">See All</button>
           </div>
           <div class="row">
         <div class="main-cnt">
@@ -158,7 +164,7 @@
         <div class="row">
             <h1 class="col-6 heading1 mt-5">Unlimited Entertainment</h1>
             <div class="col-5 mt-5"></div>
-            <button type="button " class="col-1 btn mt-5">See All</button>
+            <button type="button " class="col-1 btn mt-5 subseeall" onmouseout="this.style.backgroundColor='red'">See All</button>
         </div>
         <div class="row mt-3">
             <div class="main-cnt">
@@ -208,10 +214,11 @@
                 </div>
             </div>
         </div>
-
+        
         <div class="row mt-5">
             <h1 class="col-5 heading1">Channels For You</h1>
-            <div class="col-7"></div>
+            <div class="col-6 mt-5"></div>
+            <button type="button " class="col-1 btn mt-5 subseeall" onmouseout="this.style.backgroundColor='red'">See All</button>
         </div>
         <div class="row mt-3">
             <div id="game-cnt" class="main-cnt">
@@ -262,32 +269,32 @@
         <!-- Section: Social media -->
         <section class="mb-4 d-flex justify-content-center" >  
           <!-- Facebook -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          <a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 social-media" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor=''"href="#!" role="button"
             ><i class="fab fa-facebook-f"></i
           ></a>
     
           <!-- Twitter -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          <a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 social-media" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor=''" href="#!" role="button"
             ><i class="fab fa-twitter"></i
           ></a>
     
           <!-- Google -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          <a data-mdb-ripple-init id="gogglelogo" class="btn btn-outline-primary btn-floating m-1 social-media" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor=''" href="#!" role="button"
             ><i class="fab fa-google"></i
           ></a>
     
           <!-- Instagram -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          <a data-mdb-ripple-init id="instalogo" class="btn btn-outline-danger btn-floating m-1 social-media" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor=''" href="#!" role="button"
             ><i class="fab fa-instagram"></i
           ></a>
     
           <!-- Linkedin -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          <a data-mdb-ripple-init class="btn btn-outline-primary btn-floating m-1 social-media" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='blue'" onmouseout="this.style.backgroundColor=''" href="#!" role="button"
             ><i class="fab fa-linkedin-in"></i
           ></a>
     
           <!-- Github -->
-          <a data-mdb-ripple-init class="btn btn-outline btn-floating m-1" href="#!" role="button"
+          <a data-mdb-ripple-init class="btn btn-outline-success btn-floating m-1 social-media" style="transition: background-color 0.3s;" onmouseover="this.style.backgroundColor='Green'" onmouseout="this.style.backgroundColor=''" href="#!" role="button"
             ><i class="fab fa-github"></i
           ></a>
         </section>
@@ -300,7 +307,7 @@
             <div class="row d-flex justify-content-center">
               <!--Grid column-->
               <div class="col-auto">
-                <p class="pt-2">
+                <p class="pt-2 " style="font-size: 20px;">
                   <strong>Sign up for our newsletter</strong>
                 </p>
               </div>
@@ -310,8 +317,10 @@
               <div class="col-md-5 col-12">
                 <!-- Email input -->
                 <div data-mdb-input-init class="form-outline mb-4">
-                  <input type="email" id="form5Example24" class="form-control" />
-                  <label class="form-label" for="form5Example24">Email address</label>
+                  <input type="email" id="form5Example24" class="form-control" placeholder="xyz@gmail.com"/>
+                  </br>
+                  <i class="fa fa-envelope" aria-hidden="true"></i>  
+                  <label class="form-label" style="font-size: 20px;" for="form5Example24">Email address</label>
                 </div>
               </div>
               <!--Grid column-->
@@ -319,7 +328,7 @@
               <!--Grid column-->
               <div class="col-auto">
                 <!-- Submit button -->
-                <button data-mdb-ripple-init type="submit" class="btn btn-outline mb-4">
+                <button data-mdb-ripple-init type="submit"  class="btn btn-outline-danger mb-4 subseeall" onmouseout="this.style.backgroundColor='red'"> 
                   Subscribe
                 </button>
               </div>
@@ -332,34 +341,32 @@
     
         <!-- Section: Text -->
         <section class="mb-4">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-            repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam eum
-            harum corrupti dicta, aliquam sequi voluptate quas.
-          </p>
-        </section>
-        <!-- Section: Text -->
-    
+          <pre style="font-family:inherit; font-size: 20px; scrollbar-width: none; cursor: default;">
+            Welcome to ChillSpot – your ultimate destination for entertainment! 
+            Dive into a world of movies, games, quizzes, newspapers, and much more, all curated to keep you informed, engaged, and entertained.     
+          </pre>  
+          </section>
+          <hr>
         <!-- Section: Links -->
         <section class="">
           <!--Grid row-->
           <div class="row footer_link ">
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0 ">
-              <h5 class="text-uppercase">Links</h5>
-    
+              <h4>Explore</h5>
+              </br>
               <ul class="list-unstyled mb-0    ">
                 <li>
-                  <a class="text-body footer_link" href="#!">Link 1</a>
+                  <a class="text-body footer_link" href="#!">Home</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 2</a>
+                  <a class="text-body" href="#!">Games</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 3</a>
+                  <a class="text-body" href="#!">Movies</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 4</a>
+                  <a class="text-body" href="#!">Sports </a>
                 </li>
               </ul>
             </div>
@@ -367,20 +374,19 @@
     
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-    
+              <h4>Top Entertainment Channels</h5>
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a class="text-body" href="#!">Link 1</a>
+                  <a class="text-body" href="#!">Sony TV HD</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 2</a>
+                  <a class="text-body" href="#!">Zee TV HD</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 3</a>
+                  <a class="text-body" href="#!">Colors TV HD</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 4</a>
+                  <a class="text-body" href="#!">Star Plus HD</a>
                 </li>
               </ul>
             </div>
@@ -388,20 +394,20 @@
     
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-    
+              <h4>Top News Channels</h5>
+              </br>
               <ul class="list-unstyled mb-0 ">
                 <li>
-                  <a class="text-body " href="#!">Link 1</a>
+                  <a class="text-body " href="#!">Aaj Tak</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 2</a>
+                  <a class="text-body" href="#!">India TV</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 3</a>
+                  <a class="text-body" href="#!">Zee News/a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 4</a>
+                  <a class="text-body" href="#!">Republic Bharat</a>
                 </li>
               </ul>
             </div>
@@ -409,20 +415,20 @@
     
             <!--Grid column-->
             <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-              <h5 class="text-uppercase">Links</h5>
-    
+              <h4>Top Games</h4>
+            </br>
               <ul class="list-unstyled mb-0">
                 <li>
-                  <a class="text-body" href="#!">Link 1</a>
+                  <a class="text-body" href="#!">Call of Duty</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 2</a>
+                  <a class="text-body" href="#!">League of Legends</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 3</a>
+                  <a class="text-body" href="#!">ROBLOX</a>
                 </li>
                 <li>
-                  <a class="text-body" href="#!">Link 4</a>
+                  <a class="text-body" href="#!">Valorant</a>
                 </li>
               </ul>
             </div>
@@ -435,13 +441,22 @@
       <!-- Grid container -->
     
       <!-- Copyright -->
+      <hr>
       <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-        © 2020 Copyright:
-        <a class="text-reset fw-bold" href="https://mdbootstrap.com/">MDBootstrap.com</a>
+        © 2024 Copyright:
+        <a class="text-reset fw-bold" href="">ChillSpot.com </a>
+        &nbsp; All Rights Reserved. 
+        <h6><a href="https://linkedin.com/in/vikas-shelar-1508s" target="_blank"> Developed by: Vikas Shelar </a></h6>
       </div>
       <!-- Copyright -->
     </footer>
-
+    <div class="lastdiv">
+      <h2 id="lastheader" class="col-6">Experince Non-Stop Entertainment on ChillSpot!!</h2>
+      <div class="col-2" style="display: flex; gap: 60px;">
+        <img src="https://www.jiotv.com/images/play-store.svg" alt="">
+        <img src="https://www.jiotv.com/images/app-store.svg" alt="">
+      </div>
+    </div>
     <!-- Optional JavaScript; choose one of the two! -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
